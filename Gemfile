@@ -22,8 +22,9 @@ gem 'jquery-rails'
 gem 'jbuilder', '~> 2.0'
 gem 'sass'
 gem 'bower-rails'
-gem 'foreman'
+gem 'angular-rails-templates'
 
+gem 'foreman'
 group :production, :staging do
   gem 'rails_12factor'
   gem 'rails_stdout_logging'
